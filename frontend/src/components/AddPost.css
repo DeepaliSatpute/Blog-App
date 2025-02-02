@@ -1,0 +1,38 @@
+.container {
+  border: 2px solid black; 
+  padding: 20px; 
+  border-radius: 8px; 
+  max-width: 500px; 
+  margin: 0 auto; 
+  background-color: #f9f9f9;
+}
+
+.form-group {
+  margin-bottom: 1rem; 
+}
+
+.form-control {
+  border: 1px solid #ccc;
+  border-radius: 4px; 
+  padding: 10px;
+}
+
+button {
+  background-color: #007bff; 
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
+
+.alert {
+  margin-bottom: 1rem; 
+}
+
+
